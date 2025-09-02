@@ -10,5 +10,5 @@ const connectdb = async () => {
     console.error("Somthing went wrong at connection", err);
     process.exit(1);
   }
-};
+}; //
 export default connectdb;
